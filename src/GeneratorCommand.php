@@ -54,8 +54,8 @@ class GeneratorCommand extends Command
     {
         $types = [
             'uuid',
-            'increnemts',
-            'bigIncrenemts',
+            'increments',
+            'bigIncrements',
             'boolean',
             'tinyInteger',
             'smallInteger',
@@ -603,8 +603,8 @@ class GeneratorCommand extends Command
     protected function getPhpType($type) {
         $types = [
             'uuid' => 'string',
-            'increnemts' => 'int',
-            'bigIncrenemts' => 'int',
+            'increments' => 'int',
+            'bigIncrements' => 'int',
             'boolean' => 'bool',
             'tinyInteger' => 'int',
             'smallInteger' => 'int',
