@@ -375,7 +375,7 @@ class GeneratorCommand extends Command
         $content .= PHP_EOL;
         $content .= 'namespace App\\Services\\'.$model.'Service\\Repositories;'.PHP_EOL;
         $content .= PHP_EOL;
-        $content .= 'Kolo6ok\\RepositoryGenerator\\ServiceRepository;'.PHP_EOL;
+        $content .= 'use Kolo6ok\\RepositoryGenerator\\ServiceRepository;'.PHP_EOL;
         $content .= 'use App\\Services\\'.$model.'Service\\Models\\'.$model.'Model as Model;'.PHP_EOL;
         $content .= PHP_EOL;
         $content .= 'class '.$model.'Repository extends ServiceRepository'.PHP_EOL;
