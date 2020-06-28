@@ -7,14 +7,14 @@
             "email": "kolo6okman@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Kolo6ok\\RepositoryGenerator\\": "src/"
         }
     },
     "require": {
-        "php": ">=7.1"
+        "php": ">=7.1",
+        "laravel/framework": "^5.6"
     },
     "extra": {
         "laravel": {
