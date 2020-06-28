@@ -1,0 +1,26 @@
+{
+    "name": "kolo6ok/repository-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Larichev",
+            "email": "kolo6okman@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Kolo6ok\\RepositoryGenerator\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kolo6ok\\RepositoryGenerator\\GeneratorServiceProvider"
+            ]
+        }
+    }
+}
