@@ -219,10 +219,10 @@ class GeneratorCommand extends Command
         $content .= PHP_EOL;
         $content .= 'namespace App\\Services\\'.$model.'Service\\DTO;'.PHP_EOL;
         $content .= PHP_EOL;
-        $content .= 'Kolo6ok\\RepositoryGenerator\\DTO;'.PHP_EOL;
+        $content .= 'use Kolo6ok\\RepositoryGenerator\\DTO;'.PHP_EOL;
         $content .= PHP_EOL;
         $content .= '/**'.PHP_EOL;
-        $content .= ' * Class '.$className . 'extends DTO'.PHP_EOL;
+        $content .= ' * Class '.$className . ' extends DTO'.PHP_EOL;
         $content .= ' *'.PHP_EOL;
         foreach ($fields as $field=>$definion) {
             $content .= ' * @property '. $this->getPhpType($definion['type']) .' $'.$field . PHP_EOL;
