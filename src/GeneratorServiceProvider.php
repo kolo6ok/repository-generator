@@ -49,7 +49,7 @@ class GeneratorServiceProvider extends ServiceProvider
         );
 
         $this->commands(
-            'command.ide-helper.generate'
+            'command.repository-generator.generate'
         );
     }
 
